@@ -89,6 +89,11 @@ type V5WebsocketPrivateWalletCoin struct {
 	TotalPositionMM     string `json:"totalPositionMM"`
 	UnrealisedPnl       string `json:"unrealisedPnl"`
 	CumRealisedPnl      string `json:"cumRealisedPnl"`
+	Bonus               string `json:"bonus"`
+	CollateralSwitch    bool   `json:"collateralSwitch"`
+	MarginCollateral    bool   `json:"marginCollateral"`
+	Locked              string `json:"locked"`
+	SpotHedgingQty      string `json:"spotHedgingQty"`
 }
 
 // Key :
